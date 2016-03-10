@@ -1,0 +1,116 @@
+\newcommand{\seccion}{SECUNDARIA INCORPORADA A LA SEG }
+\newcommand{\descripcion}{N\'umeros con Signo}
+\newcommand{\grado}{Primero de secundaria}
+\newcommand{\ciclo}{Ciclo escolar: 2015--2016}
+\newcommand{\papel}{letterpaper} %letterpaper, legalpaper ...
+\newcommand{\fecha}{10 de marzo de 2016}
+
+\author{M. en C. Reinaldo Zapata}
+
+\documentclass[11pt]{article}
+\usepackage[\papel]{geometry}
+
+\title{\vspace{-1cm}\flushleft \seccion \\ \descripcion \\  \grado \\ \ciclo}
+
+\newcommand\BackgroundLogo{
+\put(160,285){
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=5cm,height=2.5cm,keepaspectratio]{/Users/reinaldo/Documents/clases/jassa/logo}%
+\vfill
+}}}
+
+% \hyphenation{con-ti-nua-ci\'on}
+
+\usepackage{enumitem}
+\usepackage[T1]{fontenc} %fuentes
+\usepackage{lmodern} %fuente mejorada
+\usepackage[spanish]{babel}
+\decimalpoint
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{tikz}
+\usepackage{hyperref} 
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+
+\setlist[enumerate]{itemsep=-1.5mm}
+
+
+\usepackage[leqno,fleqn]{amsmath}
+\makeatletter
+  \def\tagform@#1{\maketag@@@{#1\@@italiccorr}}
+\makeatother
+\renewcommand{\theequation}{\fbox{\textbf{\arabic{equation}}}}
+
+
+\begin{document}
+\AddToShipoutPicture*{\BackgroundLogo}
+\ClearShipoutPicture
+\date{\fecha}
+\maketitle
+
+
+% \begin{minipage}[t]{0.8\linewidth}
+Nombre del alumno:\,\line(1,0){244}\,.\hspace*{.2cm} \hfill Aciertos:\,\line(1,0){35}\,. \\
+\indent Primero de secundaria, grupo:\,\line(1,0){35}\,. No. de lista:\,\line(1,0){35}\,. \hfill 10 \quad \ 
+% \end{minipage}
+% \begin{minipage}{0.8\linewidth}
+% \end{minipage}
+
+\vspace{5mm}
+
+Siguiendo el procedimiento mencionado anteriormente, resuleve las siguientes
+operaciones que implican n\'umeros positivos y negativos.
+
+\begin{multicols}{2}
+
+\begin{equation}
+\frac{3}{5}+\frac{2}{3}-3+-6 \frac{1}{2} =
+\end{equation}
+\begin{equation}
+-6+8-3+5+6-4=
+\end{equation}
+\begin{equation}
+5x-10x+8x-3x =
+\end{equation}
+\begin{equation}
+-7y+6y-5y+4y =
+\end{equation}
+\begin{equation}
+-5a-2a-5a-29a =
+\end{equation}
+\begin{equation}
+40.3-7.5+8.987-60=
+\end{equation}
+\begin{equation}
+-200x+100y-400y+1000x =
+\end{equation}
+\begin{equation}
+6w+8z+7w-6z-6w-7z =
+\end{equation}
+\begin{equation}
+3.4-5.3+8.5-10 =
+\end{equation}
+\begin{equation}
+-\frac{2}{3} + \frac{3}{4} - \frac{2}{6} + \frac{8}{12} =
+\end{equation}
+
+\end{multicols}
+
+\vspace{5mm}
+
+\noindent
+Extra: 
+\begin{equation}
+-\frac{2}{3}a + \frac{3}{4}b - \frac{2}{6}a + \frac{8}{12}b  =
+\end{equation}
+
+\end{document}
+

@@ -1,0 +1,121 @@
+\newcommand{\seccion}{SECUNDARIA INCORPORADA A LA SEG }
+\newcommand{\descripcion}{N\'umeros con Signo}
+\newcommand{\grado}{Primero de secundaria}
+\newcommand{\ciclo}{Ciclo escolar: 2015--2016}
+\newcommand{\papel}{letterpaper} %letterpaper, legalpaper ...
+\newcommand{\fecha}{3 de marzo de 2016}
+
+\author{M. en C. Reinaldo Zapata}
+
+\documentclass[11pt]{article}
+\usepackage[\papel]{geometry}
+
+\title{\vspace{-1cm}\flushleft \seccion \\ \descripcion \\  \grado \\ \ciclo}
+
+\newcommand\BackgroundLogo{
+\put(160,285){
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=5cm,height=2.5cm,keepaspectratio]{/Users/reinaldo/Documents/clases/jassa/logo}%
+\vfill
+}}}
+
+% \hyphenation{con-ti-nua-ci\'on}
+
+\usepackage{enumitem}
+\usepackage[T1]{fontenc} %fuentes
+\usepackage{lmodern} %fuente mejorada
+\usepackage[spanish]{babel}
+\decimalpoint
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{tikz}
+\usepackage{hyperref} 
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+
+\setlist[enumerate]{itemsep=-1.5mm}
+
+
+\usepackage[leqno,fleqn]{amsmath}
+\makeatletter
+  \def\tagform@#1{\maketag@@@{#1\@@italiccorr}}
+\makeatother
+\renewcommand{\theequation}{\fbox{\textbf{\arabic{equation}}}}
+
+
+\begin{document}
+\AddToShipoutPicture*{\BackgroundLogo}
+\ClearShipoutPicture
+\date{\fecha}
+\maketitle
+
+
+% \begin{minipage}[t]{0.8\linewidth}
+Nombre del alumno:\,\line(1,0){244}\,.\hspace*{.2cm} \hfill Aciertos:\,\line(1,0){35}\,. \\
+\indent Primero de secundaria, grupo:\,\line(1,0){35}\,. No. de lista:\,\line(1,0){35}\,. \hfill 10 \quad \ 
+% \end{minipage}
+% \begin{minipage}{0.8\linewidth}
+% \end{minipage}
+
+\vspace{5mm}
+
+Recuerda qeu el procedimiento para resolver operaciones que implican n\'umeros
+positivos y negativos es el siguiente:
+
+\begin{enumerate}
+\item Sumar todos los n\'umeros positivos.
+\item Sumar todos los n\'umeros negativos.
+\item Restar los resultados anteriores.
+\item Seleccionar el signo adecuado para el resultado: si el valor de los
+positivos es mayor que el de los negativos, el resultado ser\'a positivo; en
+caso de no serlo, entonces ser\'a negativo.
+\end{enumerate}
+
+Siguiendo el procedimiento mencionado anteriormente, resuleve las siguientes
+operaciones que implican n\'umeros positivos y negativos.
+
+\begin{multicols}{2}
+
+\begin{equation}
+5+4-3+2-6 =
+\end{equation}
+\begin{equation}
+-6+8-3+5 =
+\end{equation}
+\begin{equation}
+5-10+8-3 =
+\end{equation}
+\begin{equation}
+-7+6-5+4 =
+\end{equation}
+\begin{equation}
+40-75+8-60=
+\end{equation}
+\begin{equation}
+-200+100-400+1000 =
+\end{equation}
+\begin{equation}
+6+8+7-6 =
+\end{equation}
+\begin{equation}
+-5-2-5-29 =
+\end{equation}
+\begin{equation}
+3.4-5.3+8.5-10 =
+\end{equation}
+\begin{equation}
+-\frac{1}{3} + \frac{2}{4} \frac{1}{6} + \frac{7}{12} =
+\end{equation}
+
+
+\end{multicols}
+    
+\end{document}
+
